@@ -1,0 +1,1 @@
+Foi alterado no INSERT as descricoes para UPPERCASE pois estavam sem padrao.

@@ -1,0 +1,8 @@
+CREATE TABLE Profissao (
+	ProfissaoID  INT NOT NULL IDENTITY(1,1),
+	Descricao VARCHAR(MAX) NOT NULL,
+	DataInsert DATETIME NULL DEFAULT GETDATE(),
+	CONSTRAINT PK_Profissao PRIMARY KEY (ProfissaoID)
+)
+GO
+
